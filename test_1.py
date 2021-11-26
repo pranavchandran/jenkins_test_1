@@ -1,5 +1,6 @@
 # Create a unittest demo
 import unittest
+from test_2 import hello
 
 
 class TestStringMethods(unittest.TestCase):
@@ -20,3 +21,4 @@ class TestStringMethods(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+    hello()
